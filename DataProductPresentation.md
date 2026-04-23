@@ -1,3 +1,4 @@
+
 Intro:
 Our solution is a multi-part approach, including an Azure-Hosted Databricks instance, utilising medallion architecture, and a Python front end for users built in Flask, using Azure Entra ID to ensure access is controlled
 Below we will cover a SWOT analysis of this approach, describe the solutions features and functions and detail the target user base. 
@@ -11,6 +12,7 @@ Where data needs to be constantly updated, Databricks supports streaming. If thi
 Once all data sources are ingested, we suggest taking a medallion architecture approach. This layer would be "Bronze", where raw data is stored, unaltered. 
 From here data can be transformed where needed and moved to a Silver layer. 
 PySpark notebooks can then be used to call the proprietery API and apply the changes to the data, then moving this on to "Gold", the data ready to be consumed by business users. 
+<img width="951" height="535" alt="1746033137826" src="https://github.com/user-attachments/assets/aaf8fdc7-3a53-42f8-9292-683196cf6500" />
 
 For the business users to access the data, we suggest building out a simple front-end application in Python, making use of the Flask package. 
 This would allow the front end to be as simple as needed for non-technical business users.
