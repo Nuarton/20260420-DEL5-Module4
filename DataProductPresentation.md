@@ -3,6 +3,9 @@ Intro:
 Our solution is a multi-part approach, including an Azure-Hosted Databricks instance, utilising medallion architecture, and a Python front end for users built in Flask, using Azure Entra ID to ensure access is controlled
 Below we will cover a SWOT analysis of this approach, describe the solutions features and functions and detail the target user base. 
 
+
+<img width="1180" height="521" alt="Screenshot 2026-04-23 145838" src="https://github.com/user-attachments/assets/5f4c86b3-9a09-4a61-a42d-13c245bdc5ad" />
+
 Product Overview:
 Data is ingested from multiple sources - This can be achieved in a number of ways depending on the source and the desired refresh. 
 Databricks has a number of "Lakeflow" connectors to make this easy when dealing with common sources, such as ServiceNow.
@@ -52,5 +55,5 @@ Databricks current biggest comeptitor is Snowflake.
 - Snowflake is another cloud-native data warehousing/lakehouse solution. Snowflake offers similar strong SQL analytics, governance and data sharing capabilities as Databricks does. 
 - Snowflake is often seen as simpler and more business-user friendly, taking a SQL first approach, where Databricks offers much more powerful tools utilising spark-native open formats such as Delta, which are often more useful for ML/AI
 Each of the big three cloud providers also offers in-house solutions 
-Tools such as Power BI and Tableau exist for visualisations of data, and are arguabley more common names and tools users may already be aware of. 
+Tools such as Power BI and Tableau exist for visualisations of data, and are arguabley more common names and tools users may already be aware of, however 
 
