@@ -54,6 +54,6 @@ Market Analysis:
 Databricks current biggest comeptitor is Snowflake.
 - Snowflake is another cloud-native data warehousing/lakehouse solution. Snowflake offers similar strong SQL analytics, governance and data sharing capabilities as Databricks does. 
 - Snowflake is often seen as simpler and more business-user friendly, taking a SQL first approach, where Databricks offers much more powerful tools utilising spark-native open formats such as Delta, which are often more useful for ML/AI
-Each of the big three cloud providers also offers in-house solutions 
-Tools such as Power BI and Tableau exist for visualisations of data, and are arguabley more common names and tools users may already be aware of, however 
+- Tools such as Power BI and Tableau exist for visualisations of data, and are arguabley more common names and tools users may already be aware of, however
+- ReTool connects to Databricks using SQL, and can build pages with tables, charts etc. Strong for interal portals, however doesnt have the strength of scalability which a Databricks soltuion does. 
 
